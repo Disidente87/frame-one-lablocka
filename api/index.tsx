@@ -22,7 +22,7 @@ app.frame('/main', (c) => {
   const { buttonValue, inputText, status } = c
   const fruit = inputText || buttonValue
   return c.res({
-    image: "/public/1.jpg",
+    image: "https://logowik.com/content/uploads/images/arbitrum-foundation4621.logowik.com.webp",
     intents: [
       //<TextInput placeholder="Enter cu" />,
       <Button action='/error'>Manolo</Button>,
@@ -39,7 +39,7 @@ app.frame('/error', (c) => {
   const { buttonValue, inputText, status } = c
   const fruit = inputText || buttonValue
   return c.res({
-    image: "/public/5.jpg",
+    image: "https://logowik.com/content/uploads/images/arbitrum-foundation4621.logowik.com.webp",
     intents: [
       //<TextInput placeholder="Enter cu" />,
       <Button action="/main">Volver a Intentar</Button>,
@@ -53,7 +53,7 @@ app.frame('/work', (c) => {
   const { buttonValue, inputText, status } = c
   const fruit = inputText || buttonValue
   return c.res({
-    image: "/public/2.jpg",
+    image: "https://logowik.com/content/uploads/images/arbitrum-foundation4621.logowik.com.webp",
     intents: [
       //<TextInput placeholder="Enter cu" />,
       <Button action='/error'>Polkadot</Button>,
@@ -70,7 +70,7 @@ app.frame('/buy', (c) => {
   const { buttonValue, inputText, status } = c
   const fruit = inputText || buttonValue
   return c.res({
-    image: "/public/3.jpg",
+    image: "https://logowik.com/content/uploads/images/arbitrum-foundation4621.logowik.com.webp",
     intents: [
       //<TextInput placeholder="Enter cu" />,
       <Button action='/error'>con la tía piolín</Button>,
@@ -87,7 +87,7 @@ app.frame('/last', (c) => {
   const { buttonValue, inputText, status } = c
   const fruit = inputText || buttonValue
   return c.res({
-    image: "/public/4.jpg",
+    image: "https://logowik.com/content/uploads/images/arbitrum-foundation4621.logowik.com.webp",
     intents: [
       //<TextInput placeholder="Enter cu" />,
       <Button.Link href='https://giveth.io/' >Giveth</Button.Link>,
