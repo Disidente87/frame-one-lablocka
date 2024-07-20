@@ -1,5 +1,6 @@
 import { Button, Frog, TextInput } from 'frog'
 import { devtools } from 'frog/dev'
+import { pinata } from 'frog/hubs'
 import { serveStatic } from 'frog/serve-static'
 // import { neynar } from 'frog/hubs'
 import { handle } from 'frog/vercel'
@@ -12,6 +13,7 @@ import { handle } from 'frog/vercel'
 export const app = new Frog({
   assetsPath: '/',
   basePath: '/api',
+  hub: pinata(),
   // Supply a Hub to enable frame verification.
   // hub: neynar({ apiKey: 'NEYNAR_FROG_FM' })
 })
